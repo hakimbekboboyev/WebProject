@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>SignIn</servlet-name>
+        <servlet-class>SignIn</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignIn</servlet-name>
+        <url-pattern>/signIn</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>SignUp</servlet-name>
+        <servlet-class>SignUp</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignUp</servlet-name>
+        <url-pattern>/signUp</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Menu</servlet-name>
+        <servlet-class>Main</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Menu</servlet-name>
+        <url-pattern>/menu</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Update</servlet-name>
+        <servlet-class>Update</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Update</servlet-name>
+        <url-pattern>/update</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>UpdateL</servlet-name>
+        <servlet-class>UpdateL</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateL</servlet-name>
+        <url-pattern>/updateL</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Delete</servlet-name>
+        <servlet-class>Delete</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Delete</servlet-name>
+        <url-pattern>/delete</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>PanelAdmin</servlet-name>
+        <servlet-class>PanelAdmin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PanelAdmin</servlet-name>
+        <url-pattern>/panelAdmin</url-pattern>
+    </servlet-mapping>
+
+</web-app>
